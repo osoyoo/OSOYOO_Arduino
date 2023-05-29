@@ -9,14 +9,14 @@ menu.upload_speed=Upload Speed
 #menu.arduino_isp=Arduino as ISP
 
 #############################
-#### OSOYOO LGT Uno     ####
+#### LGT Uno     ####
 #############################
 
 Mango.name= OSOYOO LGT Uno
 Mango.upload.tool=avrdude
 Mango.upload.protocol=arduino
 Mango.build.eerom_size=1
-Mango.upload.maximum_size=30720
+Mango.upload.maximum_size=29696
 Mango.upload.maximum_data_size=2048
 Mango.upload.speed=115200
 Mango.bootloader.tool=avrdude
@@ -35,17 +35,17 @@ Mango.build.variant=lgt8fx8p
 Mango.build.board=AVR_LARDU_328E
 
 #############################
-#### Nano     ####
+#### LGT Nano     ####
 #############################
 
-Nano.name= OSOYOO LGT-Nano/Maker-Nano
+Nano.name= OSOYOO LGT-Nano
 Nano.vid.0=0x2341
 Nano.pid.0=0x0137
 
 Nano.upload.tool=avrdude
 Nano.upload.protocol=arduino
 Nano.build.eerom_size=1
-Nano.upload.maximum_size=30720
+Nano.upload.maximum_size=29696
 Nano.upload.maximum_data_size=2048
 Nano.upload.speed=115200
 Nano.bootloader.tool=avrdude
@@ -64,14 +64,14 @@ Nano.build.variant=lgt8fx8p
 Nano.build.board=AVR_LARDU_328E
 
 #############################
-#### OSOYOO Mini-Nano      ####
+#### LGT-MINI      ####
 #############################
 
-Mini.name= OSOYOO Mini-Nano
+Mini.name= OSOYOO LGT-Mini
 Mini.upload.tool=avrdude
 Mini.upload.protocol=arduino
 Mini.build.eerom_size=1
-Mini.upload.maximum_size=30720
+Mini.upload.maximum_size=29696
 Mini.upload.maximum_data_size=2048
 Mini.upload.speed=57600
 Mini.bootloader.tool=avrdude
@@ -89,31 +89,6 @@ Mini.build.core=lgt8f
 Mini.build.variant=lgt8fx8p
 Mini.build.board=AVR_LARDU_328E
 
-#############################
-#### OSOYOO Orion      ####
-#############################
-Orion.name= OSOYOO Orion
-Orion.upload.tool=avrdude
-Orion.upload.protocol=arduino
-Orion.build.eerom_size=1
-Orion.upload.maximum_size=30720
-Orion.upload.maximum_data_size=2048
-Orion.upload.speed=57600
-Orion.bootloader.tool=avrdude
-Orion.bootloader.high_fuses=0xff
-Orion.bootloader.low_fuses=0xff
-Orion.bootloader.extended_fuses=0x07
-Orion.bootloader.path=lgt8fx8p48
-Orion.bootloader.file=lgt8fx8p48/optiboot_lgt8f328p.hex
-Orion.bootloader.unlock_bits=0x3f
-Orion.bootloader.lock_bits=0x3f
-Orion.build.mcu=atmega328p
-Orion.build.clock_source=2
-Orion.build.f_cpu=32000000L
-#Orion.build.f_cpu=16000000L
-Orion.build.core=lgt8f
-Orion.build.variant=lgt8fx8p48
-Orion.build.board=AVR_LARDU_328E
 
 #############################
 #### Diy Board     ####
